@@ -143,16 +143,18 @@ body.dark .card {
 .card-content p { font-size: 14px; margin: 6px 0; color: inherit; }
 .price{
   margin-top: 10px;
-  align-self: flex-start;
+  align-self: flex-start;   /* solda kalır */
 
-  font-size: 20px;
-  font-weight: 900;
+  font-size: 19px;
+  font-weight: 800;
+  letter-spacing: .3px;
 
-  color: white;
-  background: linear-gradient(135deg, #ff3b30, #ff7a00);
+  color: #ff3b30;
+  background: rgba(255, 59, 48, 0.12);
+  border: 1px solid rgba(255, 59, 48, 0.25);
 
-  padding: 6px 14px;
-  border-radius: 999px;
+  padding: 6px 12px;
+  border-radius: 8px;
 
   display: inline-block;
 }
