@@ -142,24 +142,22 @@ body.dark .card {
 .card-content h3 { margin: 0; font-size: 18px; }
 .card-content p { font-size: 14px; margin: 6px 0; color: inherit; }
 .price{
-  margin-top: 10px;
-  align-self: flex-start;   /* solda kalır */
+  margin-top: 8px;
+  align-self: flex-start;
 
-  font-size: 19px;
-  font-weight: 800;
-  letter-spacing: .3px;
+  font-size: 15px;      /* küçüldü */
+  font-weight: 700;     /* biraz inceldi */
+  letter-spacing: .2px;
 
   color: #ff3b30;
-  background: rgba(255, 59, 48, 0.12);
-  border: 1px solid rgba(255, 59, 48, 0.25);
+  background: rgba(255, 59, 48, 0.10);
+  border: 1px solid rgba(255, 59, 48, 0.20);
 
-  padding: 6px 12px;
-  border-radius: 8px;
+  padding: 4px 9px;     /* badge küçüldü */
+  border-radius: 6px;   /* biraz daha kompakt */
 
   display: inline-block;
 }
-
-
 
 body.dark #siteLogo {
   content:url("logo-light.png");
