@@ -6,9 +6,10 @@
   --text-light: #1a1a1a;
   --card-light: #fff;
 
-  --bg-dark: #121212;
-  --text-dark: #f5f5f5;
-  --card-dark: #1f1f1f;
+  /* 🌙 Gece teması (daha “night” görünüm) */
+  --bg-dark: #070b14;
+  --text-dark: #e9eefc;
+  --card-dark: #0f172a;
 }
 
 body {
@@ -38,7 +39,8 @@ header {
 }
 
 body.dark header {
-  background: rgba(0,0,0,0.6);
+  /* Daha “gece” cam efekti */
+  background: rgba(7,11,20,0.70);
 }
 
 h1 { font-size: 20px; font-weight: 600; }
@@ -76,7 +78,8 @@ button#themeToggle { background: none; border: none; font-size: 22px; cursor: po
 }
 
 body.dark .category-card::after {
-  background: linear-gradient(to top, rgba(255,255,255,0.1), rgba(0,0,0,0.3));
+  /* Gece temada daha doğal koyu gradient */
+  background: linear-gradient(to top, rgba(0,0,0,0.75), rgba(0,0,0,0.20));
 }
 
 .category-card span {
@@ -110,7 +113,9 @@ body.dark .category-card::after {
 
 body.dark .card {
   background-color: var(--card-dark);
-  box-shadow: 0 3px 12px rgba(255,255,255,0.05);
+  /* Gece temada daha “derin” shadow + hafif border */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.45);
+  border: 1px solid rgba(255,255,255,0.06);
 }
 
 .card:hover { transform: scale(1.02); }
@@ -138,23 +143,23 @@ body.dark .card {
   flex: 1;              /* açıklama uzasa bile fiyatı aşağı iter */
 }
 
-
 .card-content h3 { margin: 0; font-size: 18px; }
 .card-content p { font-size: 14px; margin: 6px 0; color: inherit; }
+
 .price{
   margin-top: 8px;
   align-self: flex-start;
 
-  font-size: 15px;      /* küçüldü */
-  font-weight: 700;     /* biraz inceldi */
+  font-size: 15px;
+  font-weight: 700;
   letter-spacing: .2px;
 
   color: #ff3b30;
   background: rgba(255, 59, 48, 0.10);
   border: 1px solid rgba(255, 59, 48, 0.20);
 
-  padding: 4px 9px;     /* badge küçüldü */
-  border-radius: 6px;   /* biraz daha kompakt */
+  padding: 4px 9px;
+  border-radius: 6px;
 
   display: inline-block;
 }
@@ -166,4 +171,3 @@ body.dark #siteLogo {
 body:not(.dark) #siteLogo {
   content:url("logo-dark.png");
 }
-
