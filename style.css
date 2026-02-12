@@ -142,23 +142,21 @@ body.dark .card {
 .card-content h3 { margin: 0; font-size: 18px; }
 .card-content p { font-size: 14px; margin: 6px 0; color: inherit; }
 .price{
-  align-self: flex-end;
   margin-top: 10px;
+  align-self: flex-start;
 
-  font-size: 18px;
-  font-weight: 800;
-  letter-spacing: .2px;
+  font-size: 20px;
+  font-weight: 900;
 
-  color: var(--accent);
-  background: rgba(255, 82, 82, 0.14);
-  border: 1px solid rgba(255, 82, 82, 0.25);
+  color: white;
+  background: linear-gradient(135deg, #ff3b30, #ff7a00);
 
-  padding: 6px 10px;
-  border-radius: 999px;   /* tam pill */
-  line-height: 1;
-  min-width: 74px;
-  text-align: center;
+  padding: 6px 14px;
+  border-radius: 999px;
+
+  display: inline-block;
 }
+
 
 
 body.dark #siteLogo {
