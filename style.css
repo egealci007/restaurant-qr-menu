@@ -121,13 +121,45 @@ body.dark .card {
   object-fit: cover;
 }
 
-.card-content {
-  padding: 10px 14px;
+.card-content{
+  padding: 12px 14px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-height: 120px;
 }
+
+.desc{
+  margin: 6px 0 0;
+  font-size: 14px;
+  color: inherit;
+  opacity: .85;
+  line-height: 1.35;
+  flex: 1;              /* açıklama uzasa bile fiyatı aşağı iter */
+}
+
 
 .card-content h3 { margin: 0; font-size: 18px; }
 .card-content p { font-size: 14px; margin: 6px 0; color: inherit; }
-.price { color: var(--accent); font-weight: bold; margin-top: 6px; }
+.price{
+  align-self: flex-end;
+  margin-top: 10px;
+
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: .2px;
+
+  color: var(--accent);
+  background: rgba(255, 82, 82, 0.14);
+  border: 1px solid rgba(255, 82, 82, 0.25);
+
+  padding: 6px 10px;
+  border-radius: 999px;   /* tam pill */
+  line-height: 1;
+  min-width: 74px;
+  text-align: center;
+}
+
 
 body.dark #siteLogo {
   content:url("logo-light.png");
