@@ -29,6 +29,7 @@ function ensureSearchUI() {
   if (!header) return;
 
   const wrap = document.createElement("div");
+  wrap.className = "search-wrap";
   wrap.style.padding = "0 20px 10px";
   wrap.style.position = "relative";
   wrap.style.width = "100%";
@@ -36,6 +37,7 @@ function ensureSearchUI() {
   wrap.style.overflow = "hidden";
 
   const icon = document.createElement("span");
+  icon.className = "search-icon";
   icon.textContent = "🔎";
   icon.style.position = "absolute";
   icon.style.left = "28px";
