@@ -31,7 +31,7 @@ header {
   z-index: 10;
   backdrop-filter: blur(8px);
   background: rgba(255,255,255,0.6);
-  padding: 10px 20px;
+  padding: 4px 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
