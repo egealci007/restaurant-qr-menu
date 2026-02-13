@@ -186,12 +186,6 @@ body.dark #siteLogo {
 body:not(.dark) #siteLogo {
   content:url("logo.png");
 }
-/* Yatay taşmayı tamamen engelle */
-html, body{
-  width: 100%;
-  overflow-x: hidden;
-}
-
 /* Kartların içerik taşmasını engelle */
 .card{
   max-width: 100%;
