@@ -37,14 +37,14 @@ header {
   z-index: 10;
   backdrop-filter: blur(8px);
   background: rgba(255,255,255,0.6);
-  padding: 10px 18px;
+  padding: 12px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   transition: background 0.3s;
 }
 #siteLogo {
-  height: 50px;      /* logo yüksekliği */
+  height: 80px;      /* logo yüksekliği */
   width: auto;
   display: block;
   filter: drop-shadow(0 0 12px rgba(255, 204, 0, 0.45));
