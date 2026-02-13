@@ -1,16 +1,21 @@
 :root {
   --radius: 14px;
-  --accent: #FFC83D;
+
+  /* ☀️ Light mod: daha koyu altın (kontrast iyi) */
+  --accent: #B7791F;
+
+  /* 🌙 Dark mod: daha parlak altın */
+  --accent-dark: #FFC83D;
 
   --bg-light: #f5f6fa;
   --text-light: #1a1a1a;
   --card-light: #fff;
 
-  /* 🌙 Gece teması (daha “night” görünüm) */
   --bg-dark: #070b14;
   --text-dark: #e9eefc;
   --card-dark: #0f172a;
 }
+
 
 body {
   margin: 0;
@@ -21,6 +26,7 @@ body {
 }
 
 body.dark {
+  --accent: var(--accent-dark);
   background-color: var(--bg-dark);
   color: var(--text-dark);
 }
@@ -169,17 +175,20 @@ body.dark .card {
   font-weight: 700;
   letter-spacing: .2px;
 
-  color: #FFE082;
-
-  background: rgba(255, 193, 7, 0.10);
-  border: 1px solid rgba(255, 193, 7, 0.30);
+  color: #7A4D00;                         /* light: daha koyu altın */
+  background: rgba(183, 121, 31, 0.12);   /* light: sarımsı zemin */
+  border: 1px solid rgba(183, 121, 31, 0.35);
 
   padding: 5px 10px;
   border-radius: 8px;
-
   display: inline-block;
 }
 
+body.dark .price{
+  color: #FFE082;
+  background: rgba(255, 193, 7, 0.10);
+  border: 1px solid rgba(255, 193, 7, 0.30);
+}
 
 body.dark #siteLogo {
   content:url("logo.png");
