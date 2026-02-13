@@ -36,7 +36,6 @@ function ensureSearchUI() {
   wrap.style.overflow = "hidden";
 
   const icon = document.createElement("span");
-  icon.textContent = "🔎";
   icon.style.position = "absolute";
   icon.style.left = "28px";
   icon.style.top = "10px";
