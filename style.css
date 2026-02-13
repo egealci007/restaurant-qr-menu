@@ -44,7 +44,7 @@ header {
   transition: background 0.3s;
 }
 #siteLogo {
-  height: 70px;      /* logo yüksekliği */
+  height: 50px;      /* logo yüksekliği */
   width: auto;
   display: block;
   filter: drop-shadow(0 0 12px rgba(255, 204, 0, 0.45));
