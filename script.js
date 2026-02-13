@@ -31,11 +31,14 @@ function ensureSearchUI() {
   const wrap = document.createElement("div");
   wrap.style.padding = "0 20px 10px";
   wrap.style.position = "relative";
+  wrap.style.width = "100%";
+  wrap.style.boxSizing = "border-box";
+  wrap.style.overflow = "hidden";
 
   const icon = document.createElement("span");
   icon.textContent = "🔎";
   icon.style.position = "absolute";
-  icon.style.left = "32px";
+  icon.style.left = "28px";
   icon.style.top = "10px";
   icon.style.opacity = "0.75";
   icon.style.pointerEvents = "none";
@@ -45,7 +48,8 @@ function ensureSearchUI() {
   input.type = "text";
   input.placeholder = "Menüde ara...";
   input.style.width = "100%";
-  input.style.maxWidth = "520px";
+  input.style.maxWidth = "100%";
+  input.style.boxSizing = "border-box";
   input.style.padding = "10px 14px 10px 38px"; // ikon için sol padding
   input.style.borderRadius = "12px";
   input.style.border = "1px solid rgba(255,255,255,0.15)";
@@ -63,7 +67,7 @@ function ensureSearchUI() {
   searchInput = input;
 }
 
-// ✅ Tüm menüde arama render
+// ✅ Tüm menüde arama render (SADECE ÜRÜN ADINDA)
 function renderSearchResults(query) {
   const q = (query || "").trim().toLowerCase();
   menuContainer.innerHTML = "";
@@ -84,9 +88,7 @@ function renderSearchResults(query) {
   Object.entries(GLOBAL_DATA).forEach(([category, info]) => {
     (info.items || []).forEach((item) => {
       const name = (item.name || "").toLowerCase();
-      const desc = (item.desc || "").toLowerCase();
-
-      const match = name.includes(q) || desc.includes(q);
+      const match = name.includes(q); // ✅ sadece isim
 
       if (match) {
         found++;
