@@ -140,7 +140,7 @@ body.dark .card {
   padding: 10px 12px 10px;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 2px;
   min-height: 0px;
 }
 
