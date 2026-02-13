@@ -4,6 +4,8 @@
 // ============================
 
 // 🔧 Ayarlar
+const sheetId = "163c-Dcd0b_u7jLyKAH9qwqZdxoNYW4GHk8n5HXjFAiE";
+const GVIZ_URL = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tqx=out:json`;
 const JSON_URL = `https://raw.githubusercontent.com/egealci007/restaurant-qr-menu/main/data/menu.json?t=${Date.now()}`; // hep güncel
 
 // HTML elementleri
@@ -31,13 +33,11 @@ function ensureSearchUI() {
   const wrap = document.createElement("div");
   wrap.style.padding = "0 20px 10px";
   wrap.style.position = "relative";
-  wrap.style.width = "100%";
-  wrap.style.boxSizing = "border-box";
-  wrap.style.overflow = "hidden";
 
   const icon = document.createElement("span");
+  icon.textContent = "🔎";
   icon.style.position = "absolute";
-  icon.style.left = "28px";
+  icon.style.left = "32px";
   icon.style.top = "10px";
   icon.style.opacity = "0.75";
   icon.style.pointerEvents = "none";
@@ -47,8 +47,7 @@ function ensureSearchUI() {
   input.type = "text";
   input.placeholder = "Menüde ara...";
   input.style.width = "100%";
-  input.style.maxWidth = "100%";
-  input.style.boxSizing = "border-box";
+  input.style.maxWidth = "520px";
   input.style.padding = "10px 14px 10px 38px"; // ikon için sol padding
   input.style.borderRadius = "12px";
   input.style.border = "1px solid rgba(255,255,255,0.15)";
@@ -66,7 +65,7 @@ function ensureSearchUI() {
   searchInput = input;
 }
 
-// ✅ Tüm menüde arama render (SADECE ÜRÜN ADINDA)
+// ✅ Tüm menüde arama render
 function renderSearchResults(query) {
   const q = (query || "").trim().toLowerCase();
   menuContainer.innerHTML = "";
@@ -87,7 +86,9 @@ function renderSearchResults(query) {
   Object.entries(GLOBAL_DATA).forEach(([category, info]) => {
     (info.items || []).forEach((item) => {
       const name = (item.name || "").toLowerCase();
-      const match = name.includes(q); // ✅ sadece isim
+      const desc = (item.desc || "").toLowerCase();
+
+      const match = name.includes(q) || desc.includes(q);
 
       if (match) {
         found++;
