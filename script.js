@@ -4,8 +4,6 @@
 // ============================
 
 // 🔧 Ayarlar
-const sheetId = "163c-Dcd0b_u7jLyKAH9qwqZdxoNYW4GHk8n5HXjFAiE";
-const GVIZ_URL = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tqx=out:json`;
 const JSON_URL = `https://raw.githubusercontent.com/egealci007/restaurant-qr-menu/main/data/menu.json?t=${Date.now()}`; // hep güncel
 
 // HTML elementleri
