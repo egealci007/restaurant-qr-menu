@@ -38,7 +38,7 @@ header {
   transition: background 0.3s;
 }
 #siteLogo {
-  height: 120px;      /* logo yüksekliği */
+  height: 70px;      /* logo yüksekliği */
   width: auto;
   display: block;
 }
