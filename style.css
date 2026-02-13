@@ -29,17 +29,15 @@ header {
   position: sticky;
   top: 0;
   z-index: 10;
-
   backdrop-filter: blur(8px);
-  background: rgba(7,11,20,0.70);
-
-  padding: 6px 14px;   /* 🔥 yüksekliği azalttık */
+  background: rgba(255,255,255,0.6);
+  padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  min-height: 56px;    /* Mor Lounge gibi ince */
+  transition: background 0.3s;
 }
+
 
 body.dark header {
   /* Daha “gece” cam efekti */
