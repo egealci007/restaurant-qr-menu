@@ -37,8 +37,11 @@ header {
   align-items: center;
   transition: background 0.3s;
 }
-
-
+#siteLogo {
+  height: 48px;      /* logo yüksekliği */
+  width: auto;
+  display: block;
+}
 body.dark header {
   /* Daha “gece” cam efekti */
   background: rgba(7,11,20,0.70);
