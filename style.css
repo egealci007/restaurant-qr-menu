@@ -171,3 +171,18 @@ body.dark #siteLogo {
 body:not(.dark) #siteLogo {
   content:url("logo-dark.png");
 }
+/* Yatay taşmayı tamamen engelle */
+html, body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Grid item'ların taşmasını engelle */
+.menu{
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+}
+
+/* Kartların içerik taşmasını engelle */
+.card{
+  max-width: 100%;
+}
