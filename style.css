@@ -175,11 +175,11 @@ body.dark .card {
 }
 
 body.dark #siteLogo {
-  content:url("logo-light.png");
+  content:url("Logo.png");
 }
 
 body:not(.dark) #siteLogo {
-  content:url("logo-dark.png");
+  content:url("Logo.png");
 }
 /* Yatay taşmayı tamamen engelle */
 html, body{
