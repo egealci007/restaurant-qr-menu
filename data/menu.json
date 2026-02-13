@@ -22,5 +22,21 @@
     "Açıklama": "",
     "Görsel URL": "",
     "CategoryImg": ""
+  },
+  {
+    "Kategori": "Başlangıçlar",
+    "Ürün Adı": "Patates Tava",
+    "Fiyat": 500,
+    "Açıklama": "",
+    "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/tavuk_doner.webp",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Başlangıçlar",
+    "Ürün Adı": "Patates Tava",
+    "Fiyat": 500,
+    "Açıklama": "",
+    "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/tavuk_doner.webp",
+    "CategoryImg": ""
   }
 ]
