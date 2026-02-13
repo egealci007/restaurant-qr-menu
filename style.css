@@ -141,7 +141,7 @@ body.dark .card {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  min-height: 20px;
+  min-height: 120px;
 }
 
 .desc{
@@ -150,7 +150,7 @@ body.dark .card {
   color: inherit;
   opacity: .85;
   line-height: 1.35;
-  flex: 0;              /* açıklama uzasa bile fiyatı aşağı iter */
+  flex: 1;              /* açıklama uzasa bile fiyatı aşağı iter */
 }
 
 .card-content h3 { margin: 0; font-size: 18px; }
