@@ -64,9 +64,7 @@ button#themeToggle { background: none; border: none; font-size: 22px; cursor: po
   overflow-x: auto;
 
   /* ✅ glow kesilmesin diye sağ/sol daha fazla boşluk */
-  padding: 10px 28px;
-  
-  margin-top: 30px;   /* ayraç alanını genişletir */
+  padding: 15px 28px;
 
   scroll-snap-type: x mandatory;
 
