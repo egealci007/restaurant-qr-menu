@@ -13,8 +13,15 @@
   <button id="themeToggle">☀️</button>
 </header>
 
-<div class="categories" id="categories"></div>
-<div class="menu" id="menu"></div>
+<!-- ✅ İlk ekran: sadece kategoriler -->
+<div id="homeView">
+  <div class="categories" id="categories"></div>
+</div>
+
+<!-- ✅ Ürün ekranı: başlangıçta kapalı -->
+<div id="menuView" style="display:none;">
+  <div class="menu" id="menu"></div>
+</div>
 
 <script src="script.js"></script>
 </body>
