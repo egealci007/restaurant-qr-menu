@@ -4,29 +4,49 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mor Lounge Menü</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+
 </head>
-<body class="dark"> <!-- Başlangıç dark mod -->
-<header>
-  <img id="siteLogo" src="logo.png" alt="Yemekhane Logo">
 
-  <!-- ✅ Geri butonu (başlangıçta gizli) -->
-  <button id="backBtn" style="display:none;" aria-label="Geri">← Geri</button>
+<body class="light"> <!-- Bu tasarım beyaz zemin olduğu için light yaptık -->
 
-  <button id="themeToggle">☀️</button>
+<header class="ml-header">
+  
+  <img id="siteLogo" src="logo.png" alt="Mor Lounge Logo" class="ml-logo">
+
+  <div class="header-right">
+    
+    <!-- Geri Butonu -->
+    <button id="backBtn" class="ml-back hidden" aria-label="Geri">
+      ← Geri
+    </button>
+
+    <!-- Tema Toggle (istersen kaldırabiliriz) -->
+    <button id="themeToggle" class="ml-theme">
+      ☀️
+    </button>
+
+  </div>
+
 </header>
 
-<!-- ✅ İlk ekran: sadece kategoriler -->
-<div id="homeView">
-  <div class="categories" id="categories"></div>
-</div>
+<!-- ✅ ANA EKRAN (SADECE KATEGORİLER) -->
+<main>
 
-<!-- ✅ Ürün ekranı: başlangıçta kapalı -->
-<div id="menuView" style="display:none;">
-  <div class="menu" id="menu"></div>
-</div>
+  <section id="homeView">
+    <div class="categories" id="categories"></div>
+  </section>
+
+  <!-- ✅ ÜRÜN EKRANI -->
+  <section id="menuView" class="hidden">
+    <div class="menu" id="menu"></div>
+  </section>
+
+</main>
 
 <script src="script.js"></script>
+
 </body>
 </html>
