@@ -232,5 +232,5 @@ themeBtn.addEventListener("click", () => {
     : "🌙";
 });
 
-document.body.classList.add("dark");
-themeBtn.textContent = "☀️";
+// ✅ Sayfa ilk açılışta: light başlasın
+themeBtn.textContent = document.body.classList.contains("dark") ? "☀️" : "🌙";
