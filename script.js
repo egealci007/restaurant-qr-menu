@@ -11,6 +11,14 @@ const catContainer = document.getElementById("categories");
 const menuContainer = document.getElementById("menu");
 const themeBtn = document.getElementById("themeToggle");
 
+// ✅ Yeni view elementleri (index.html’de ekledik)
+const homeView = document.getElementById("homeView");
+const menuView = document.getElementById("menuView");
+const siteLogo = document.getElementById("siteLogo");
+
+// ✅ Menü verisini sakla (geri dönüşte tekrar fetch etmesin)
+let APP_DATA = null;
+
 // ============================
 //  🚀 SADECE JSON KULLANAN INIT
 // ============================
@@ -23,6 +31,11 @@ async function init() {
     const json = await res.json();
     const data = normalizeJson(json);
 
+    APP_DATA = data;
+
+    // ✅ İlk ekran: sadece kategoriler
+    showHome();
+
     buildUI(data);
 
   } catch (err) {
@@ -33,6 +46,30 @@ async function init() {
 
 // Başlat
 init();
+
+// ============================
+//  View yardımcıları
+// ============================
+
+function showHome() {
+  if (homeView) homeView.style.display = "block";
+  if (menuView) menuView.style.display = "none";
+  // ürün listesini temizlemek istersen aç:
+  // menuContainer.innerHTML = "";
+}
+
+function showMenu() {
+  if (homeView) homeView.style.display = "none";
+  if (menuView) menuView.style.display = "block";
+}
+
+// Logo’ya tıklayınca ana ekrana dön
+if (siteLogo) {
+  siteLogo.style.cursor = "pointer";
+  siteLogo.addEventListener("click", () => {
+    showHome();
+  });
+}
 
 // ============================
 //  JSON verisini düzenle
@@ -73,14 +110,18 @@ function buildUI(data) {
     catContainer.appendChild(div);
   });
 
-  if (cats.length)
-    showCategory(cats[0][0], catContainer.querySelector(".category-card"), data);
+  // ❌ Eski davranış: sayfa açılır açılmaz ürünleri gösteriyordu
+  // ✅ Artık ilk açılışta ürün göstermiyoruz, sadece kategoriler
+  // if (cats.length) showCategory(...)
 
   lazyLoadCategoryImages();
   smartPreloadImages(data);
 }
 
 function showCategory(category, element, data) {
+  // ✅ Kategoriye basınca ürün ekranını aç
+  showMenu();
+
   document
     .querySelectorAll(".category-card")
     .forEach((el) => el.classList.remove("active"));
