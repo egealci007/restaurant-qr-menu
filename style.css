@@ -112,12 +112,12 @@ body.dark .category-card::after {
 
 .category-card span {
   position: absolute;
-  left: 0;              /* ✅ tam sola yasla */
-  right: 0;             /* ✅ tam sağa yasla */
-  bottom: 0;            /* ✅ aşağı boşluk kalmasın */
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;                 /* ✅ kartın altına tam yapıştı */
 
-  width: 100%;          /* ✅ kartın tamamını kaplasın */
-  padding: 12px 14px;
+  width: calc(100% - 22px);  /* ✅ sol boşluk korunuyor */
+  padding: 14px 14px;
 
   text-align: center;
   font-weight: 600;
@@ -126,22 +126,19 @@ body.dark .category-card::after {
 
   color: #fff;
 
-  /* ✅ Blur azaltıldı */
-  background: rgba(255, 255, 255, 0.12);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  /* ✅ Daha doğal blur */
+  background: rgba(0, 0, 0, 0.30);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 
-  border-top: 1px solid rgba(255,255,255,0.18);
-  box-shadow: 0 -6px 20px rgba(0,0,0,0.25);
+  border-radius: 0 0 16px 16px;   /* ✅ alt köşeler kartla hizalı */
+  box-shadow: 0 -8px 20px rgba(0,0,0,0.25);
 
   z-index: 2;
 }
 
-
-
 body.dark .category-card span{
-  background: rgba(255,255,255,0.08);
-  border-top: 1px solid rgba(255,255,255,0.12);
+   background: rgba(0, 0, 0, 0.38);
 }
 
 .category-card:hover {
