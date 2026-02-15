@@ -1,6 +1,6 @@
 [
   {
-    "Kategori": "Başlangıçlar",
+    "Kategori": "Çorbalar",
     "Ürün Adı": "Patates Tava",
     "Fiyat": 500,
     "Açıklama": "Lezzetli Tavuk Dürüm",
@@ -8,7 +8,7 @@
     "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/baslangic.webp"
   },
   {
-    "Kategori": "Ana Yemekler",
+    "Kategori": "Pilavlar",
     "Ürün Adı": "Tavuk Döner",
     "Fiyat": 250,
     "Açıklama": "",
@@ -16,7 +16,7 @@
     "CategoryImg": ""
   },
   {
-    "Kategori": "İçecekler",
+    "Kategori": "Makarnalar",
     "Ürün Adı": "Kola",
     "Fiyat": 100,
     "Açıklama": "",
@@ -24,7 +24,7 @@
     "CategoryImg": ""
   },
   {
-    "Kategori": "Başlangıçlar",
+    "Kategori": "Bakliyatlar",
     "Ürün Adı": "Patates Tava",
     "Fiyat": 500,
     "Açıklama": "",
@@ -32,11 +32,83 @@
     "CategoryImg": ""
   },
   {
-    "Kategori": "Başlangıçlar",
+    "Kategori": "Sebze Yemekleri",
     "Ürün Adı": "Patates Tava",
     "Fiyat": 500,
     "Açıklama": "",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/tavuk_doner.webp",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Etli Yemekler",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Tavuklu Yemeler",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Yan Lezzetler",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Çin Mutfağı",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Kompostolar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Tatlılar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Meze & Zeytinyağlılar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Mantılar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Kahvaltı",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
     "CategoryImg": ""
   }
 ]
