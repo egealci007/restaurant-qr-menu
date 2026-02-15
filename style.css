@@ -110,16 +110,14 @@ body.dark .category-card::after {
   );
 }
 
-/* ✅ Blur’lu şerit + ortalı başlık (görseldeki gibi) */
 .category-card span {
   position: absolute;
-  left: 50%;
-  bottom: 12px;
-  transform: translateX(-50%);
+  left: 0;              /* ✅ tam sola yasla */
+  right: 0;             /* ✅ tam sağa yasla */
+  bottom: 0;            /* ✅ aşağı boşluk kalmasın */
 
-  width: calc(100% - 22px);
+  width: 100%;          /* ✅ kartın tamamını kaplasın */
   padding: 12px 14px;
-  border-radius: 14px;
 
   text-align: center;
   font-weight: 600;
@@ -128,21 +126,22 @@ body.dark .category-card::after {
 
   color: #fff;
 
-  /* ✅ Görseldeki gibi açık cam efekti */
-  background: rgba(255, 255, 255, 0.18);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
+  /* ✅ Blur azaltıldı */
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 
-  border: 1px solid rgba(255,255,255,0.25);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+  border-top: 1px solid rgba(255,255,255,0.18);
+  box-shadow: 0 -6px 20px rgba(0,0,0,0.25);
 
   z-index: 2;
 }
 
 
+
 body.dark .category-card span{
-  background: rgba(255,255,255,0.10);
-  border: 1px solid rgba(255,255,255,0.15);
+  background: rgba(255,255,255,0.08);
+  border-top: 1px solid rgba(255,255,255,0.12);
 }
 
 .category-card:hover {
