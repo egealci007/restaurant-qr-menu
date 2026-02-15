@@ -198,7 +198,8 @@ body.dark .card {
   min-height: 0px;
 }
 
-desc{
+/* ✅ BURASI DÜZELTİLDİ: desc{ değil .desc{ olmalı */
+.desc{
   margin: 6px 0 0;
   font-size: 14px;
   color: inherit;
@@ -219,7 +220,7 @@ desc{
   line-height: 1.2;
 
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 1;      /* ✅ 1 satır */
   -webkit-box-orient: vertical;
   overflow: hidden;
 
@@ -283,12 +284,27 @@ body:not(.dark) #siteLogo { content:url("logo.png"); }
 
   .card-content h3{
     font-size: 15px;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 1;   /* ✅ mobilde de 1 satır */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+    line-height: 1.2;
+    transition: all 0.3s ease;
   }
 
   .desc{
     font-size: 12px;
     line-height: 1.25;
     margin: 0;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2;   /* ✅ mobilde de 2 satır */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+    transition: all 0.3s ease;
   }
 
   .price{
@@ -324,6 +340,8 @@ body.dark #backBtn{
     background: rgba(255,255,255,0.12);
   }
 }
+
+/* ✅ Kart açılınca tüm metin görünsün */
 .card.expanded h3{
   -webkit-line-clamp: unset;
   display: block;
@@ -333,4 +351,3 @@ body.dark #backBtn{
   -webkit-line-clamp: unset;
   display: block;
 }
-
