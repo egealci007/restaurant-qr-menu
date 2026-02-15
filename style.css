@@ -75,7 +75,7 @@ button#themeToggle { background: none; border: none; font-size: 22px; cursor: po
 
 .category-card {
   width: 100%;
-  height: 140px;
+  height: 150px; /* ✅ görsele daha yakın */
 
   border-radius: 16px;
   overflow: hidden;
@@ -89,41 +89,75 @@ button#themeToggle { background: none; border: none; font-size: 22px; cursor: po
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-/* modern koyu overlay */
+/* ✅ daha yumuşak overlay (görseldeki gibi) */
 .category-card::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(0,0,0,0.72), rgba(0,0,0,0.12));
+  background: linear-gradient(to top,
+    rgba(0,0,0,0.35) 0%,
+    rgba(0,0,0,0.10) 55%,
+    rgba(0,0,0,0.00) 100%
+  );
 }
 
+/* dark modda overlay biraz daha güçlü kalsın */
 body.dark .category-card::after {
-  background: linear-gradient(to top, rgba(0,0,0,0.78), rgba(0,0,0,0.18));
+  background: linear-gradient(to top,
+    rgba(0,0,0,0.45) 0%,
+    rgba(0,0,0,0.14) 55%,
+    rgba(0,0,0,0.00) 100%
+  );
 }
 
+/* ✅ Blur’lu şerit + ortalı başlık (görseldeki gibi) */
 .category-card span {
   position: absolute;
+  left: 50%;
   bottom: 12px;
-  left: 14px;
+  transform: translateX(-50%);
+
+  width: calc(100% - 22px);
+  padding: 12px 14px;
+  border-radius: 14px;
+
+  text-align: center;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+
+  color: #fff;
+
+  /* ✅ Görseldeki gibi açık cam efekti */
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  border: 1px solid rgba(255,255,255,0.25);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+
   z-index: 2;
+}
+
+
+body.dark .category-card span{
+  background: rgba(255,255,255,0.10);
+  border: 1px solid rgba(255,255,255,0.15);
 }
 
 .category-card:hover {
   transform: translateY(-3px);
 }
 
+/* ✅ aktifte sarı glow yok (ışık tamamen kalktı) */
 .category-card.active {
-  box-shadow:
-    0 10px 26px rgba(0,0,0,0.35),
-    0 0 22px rgba(255, 200, 0, 0.38);
+  box-shadow: 0 10px 26px rgba(0,0,0,0.35);
   transform: translateY(-3px);
 }
 
 /* çok küçük ekranlarda kart yüksekliği biraz düşsün */
 @media (max-width: 380px){
-  .category-card{ height: 125px; }
+  .category-card{ height: 135px; }
 }
 
 /* ============================
@@ -249,6 +283,7 @@ body:not(.dark) #siteLogo { content:url("logo.png"); }
     margin-top: 6px;
   }
 }
+
 /* ✅ Geri butonu (sadece stil) */
 #backBtn{
   border: none;
