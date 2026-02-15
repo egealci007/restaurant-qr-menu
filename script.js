@@ -150,6 +150,16 @@ function showCategory(category, element, data) {
   (data[category]?.items || []).forEach((item) => {
     const card = document.createElement("div");
     card.className = "card";
+    card.addEventListener("click", () => {
+  // ✅ Diğer tüm açık kartları kapat
+  document.querySelectorAll(".card.expanded").forEach((c) => {
+    if (c !== card) c.classList.remove("expanded");
+  });
+
+  // ✅ Bu kartı aç/kapat
+  card.classList.toggle("expanded");
+});
+
     card.innerHTML = `
       <img src="${item.img}?v=1" alt="${item.name}" loading="lazy" decoding="async">
       <div class="card-content">
