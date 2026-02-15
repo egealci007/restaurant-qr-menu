@@ -249,3 +249,30 @@ body:not(.dark) #siteLogo { content:url("logo.png"); }
     margin-top: 6px;
   }
 }
+/* ✅ Geri butonu (sadece stil) */
+#backBtn{
+  border: none;
+  background: rgba(0,0,0,0.06);
+  color: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  line-height: 1;
+}
+
+body.dark #backBtn{
+  background: rgba(255,255,255,0.08);
+}
+
+/* hover sadece desktop'ta */
+@media (hover: hover){
+  #backBtn:hover{
+    background: rgba(0,0,0,0.10);
+  }
+  body.dark #backBtn:hover{
+    background: rgba(255,255,255,0.12);
+  }
+}
+
