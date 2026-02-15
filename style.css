@@ -198,16 +198,34 @@ body.dark .card {
   min-height: 0px;
 }
 
-.desc{
+desc{
   margin: 6px 0 0;
   font-size: 14px;
   color: inherit;
   opacity: .85;
   line-height: 1.35;
-  flex: 1;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+  transition: all 0.3s ease;
 }
 
-.card-content h3 { margin: 0; font-size: 18px; }
+.card-content h3{
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.2;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+  transition: all 0.3s ease;
+}
+
 .card-content p { font-size: 14px; margin: 6px 0; color: inherit; }
 
 .price{
@@ -306,3 +324,13 @@ body.dark #backBtn{
     background: rgba(255,255,255,0.12);
   }
 }
+.card.expanded h3{
+  -webkit-line-clamp: unset;
+  display: block;
+}
+
+.card.expanded .desc{
+  -webkit-line-clamp: unset;
+  display: block;
+}
+
