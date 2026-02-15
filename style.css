@@ -201,3 +201,46 @@ body:not(.dark) #siteLogo {
 .card{
   max-width: 100%;
 }
+/* 📱 Mobilde ürünleri yatay kart yap (desktop bozulmaz) */
+@media (max-width: 600px){
+
+  .menu{
+    grid-template-columns: 1fr;  /* mobil tek sütun */
+    gap: 14px;
+    padding: 16px;
+  }
+
+  .card{
+    display: flex;
+    align-items: stretch;
+  }
+
+  .card img{
+    width: 120px;
+    height: 100%;
+    object-fit: cover;
+    flex: 0 0 120px;
+  }
+
+  .card-content{
+    flex: 1;
+    padding: 10px 12px;
+    gap: 6px;
+  }
+
+  .card-content h3{
+    font-size: 15px;
+  }
+
+  .desc{
+    font-size: 12px;
+    line-height: 1.25;
+    margin: 0;
+  }
+
+  .price{
+    font-size: 14px;
+    padding: 4px 8px;
+    margin-top: 6px;
+  }
+}
