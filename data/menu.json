@@ -1,22 +1,22 @@
 [
   {
     "Kategori": "Çorbalar",
-    "Ürün Adı": "Patates Tava",
+    "Ürün Adı": "Süzme Mercimek Çorbası",
     "Fiyat": 500,
     "Açıklama": "Lezzetli Tavuk Dürüm",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/tavuk_doner.webp",
     "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/baslangic.webp"
   },
   {
-    "Kategori": "Pilavlar",
-    "Ürün Adı": "Tavuk Döner",
+    "Kategori": "Çorbalar",
+    "Ürün Adı": "",
     "Fiyat": 250,
     "Açıklama": "",
     "Görsel URL": "",
     "CategoryImg": ""
   },
   {
-    "Kategori": "Makarnalar",
+    "Kategori": "Çorbalar",
     "Ürün Adı": "Kola",
     "Fiyat": 100,
     "Açıklama": "",
@@ -24,23 +24,287 @@
     "CategoryImg": ""
   },
   {
-    "Kategori": "Bakliyatlar",
+    "Kategori": "Çorbalar",
     "Ürün Adı": "Patates Tava",
     "Fiyat": 500,
     "Açıklama": "",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/tavuk_doner.webp",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Çorbalar",
+    "Ürün Adı": "Patates Tava",
+    "Fiyat": 500,
+    "Açıklama": "",
+    "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/tavuk_doner.webp",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Çorbalar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Çorbalar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Çorbalar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Çorbalar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Pilavlar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Pilavlar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Pilavlar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Pilavlar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Pilavlar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Pilavlar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Pilavlar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Pilavlar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Makarnalar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Makarnalar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Makarnalar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Makarnalar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Makarnalar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Makarnalar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Makarnalar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Makarnalar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Makarnalar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Makarnalar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Makarnalar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Makarnalar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Makarnalar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Makarnalar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Makarnalar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Makarnalar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Bakliyatlar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Bakliyatlar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Bakliyatlar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Bakliyatlar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Bakliyatlar",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
     "CategoryImg": ""
   },
   {
     "Kategori": "Sebze Yemekleri",
-    "Ürün Adı": "Patates Tava",
-    "Fiyat": 500,
-    "Açıklama": "",
-    "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/tavuk_doner.webp",
-    "CategoryImg": ""
-  },
-  {
-    "Kategori": "Etli Yemekler",
     "Ürün Adı": "",
     "Fiyat": "",
     "Açıklama": "",
@@ -48,7 +312,7 @@
     "CategoryImg": ""
   },
   {
-    "Kategori": "Tavuklu Yemeler",
+    "Kategori": "Sebze Yemekleri",
     "Ürün Adı": "",
     "Fiyat": "",
     "Açıklama": "",
@@ -56,7 +320,7 @@
     "CategoryImg": ""
   },
   {
-    "Kategori": "Yan Lezzetler",
+    "Kategori": "Sebze Yemekleri",
     "Ürün Adı": "",
     "Fiyat": "",
     "Açıklama": "",
@@ -64,7 +328,7 @@
     "CategoryImg": ""
   },
   {
-    "Kategori": "Çin Mutfağı",
+    "Kategori": "Sebze Yemekleri",
     "Ürün Adı": "",
     "Fiyat": "",
     "Açıklama": "",
@@ -72,7 +336,7 @@
     "CategoryImg": ""
   },
   {
-    "Kategori": "Kompostolar",
+    "Kategori": "Sebze Yemekleri",
     "Ürün Adı": "",
     "Fiyat": "",
     "Açıklama": "",
@@ -80,7 +344,7 @@
     "CategoryImg": ""
   },
   {
-    "Kategori": "Tatlılar",
+    "Kategori": "Sebze Yemekleri",
     "Ürün Adı": "",
     "Fiyat": "",
     "Açıklama": "",
@@ -88,7 +352,7 @@
     "CategoryImg": ""
   },
   {
-    "Kategori": "Meze & Zeytinyağlılar",
+    "Kategori": "Sebze Yemekleri",
     "Ürün Adı": "",
     "Fiyat": "",
     "Açıklama": "",
@@ -96,7 +360,7 @@
     "CategoryImg": ""
   },
   {
-    "Kategori": "Mantılar",
+    "Kategori": "Sebze Yemekleri",
     "Ürün Adı": "",
     "Fiyat": "",
     "Açıklama": "",
@@ -104,7 +368,15 @@
     "CategoryImg": ""
   },
   {
-    "Kategori": "Kahvaltı",
+    "Kategori": "Sebze Yemekleri",
+    "Ürün Adı": "",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Sebze Yemekleri",
     "Ürün Adı": "",
     "Fiyat": "",
     "Açıklama": "",
