@@ -16,6 +16,9 @@ const homeView = document.getElementById("homeView");
 const menuView = document.getElementById("menuView");
 const siteLogo = document.getElementById("siteLogo");
 
+// ✅ Geri butonu (sadece bunu ekliyoruz)
+const backBtn = document.getElementById("backBtn");
+
 // ✅ Menü verisini sakla (geri dönüşte tekrar fetch etmesin)
 let APP_DATA = null;
 
@@ -54,6 +57,10 @@ init();
 function showHome() {
   if (homeView) homeView.style.display = "block";
   if (menuView) menuView.style.display = "none";
+
+  // ✅ Geri butonu ana ekranda gizli
+  if (backBtn) backBtn.style.display = "none";
+
   // ürün listesini temizlemek istersen aç:
   // menuContainer.innerHTML = "";
 }
@@ -61,12 +68,22 @@ function showHome() {
 function showMenu() {
   if (homeView) homeView.style.display = "none";
   if (menuView) menuView.style.display = "block";
+
+  // ✅ Menü ekranında geri butonu görünsün
+  if (backBtn) backBtn.style.display = "inline-flex";
 }
 
 // Logo’ya tıklayınca ana ekrana dön
 if (siteLogo) {
   siteLogo.style.cursor = "pointer";
   siteLogo.addEventListener("click", () => {
+    showHome();
+  });
+}
+
+// ✅ Geri butonuna basınca ana ekrana dön
+if (backBtn) {
+  backBtn.addEventListener("click", () => {
     showHome();
   });
 }
