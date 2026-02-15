@@ -40,7 +40,6 @@ async function init() {
     showHome();
 
     buildUI(data);
-
   } catch (err) {
     console.error("menu.json yüklenemedi:", err.message);
     alert("Menü yüklenemedi. Lütfen data/menu.json dosyasını kontrol edin.");
@@ -54,6 +53,10 @@ init();
 //  View yardımcıları
 // ============================
 
+function closeExpandedCards() {
+  document.querySelectorAll(".card.expanded").forEach((c) => c.classList.remove("expanded"));
+}
+
 function showHome() {
   if (homeView) homeView.style.display = "block";
   if (menuView) menuView.style.display = "none";
@@ -61,8 +64,8 @@ function showHome() {
   // ✅ Geri butonu ana ekranda gizli
   if (backBtn) backBtn.style.display = "none";
 
-  // ürün listesini temizlemek istersen aç:
-  // menuContainer.innerHTML = "";
+  // ✅ açık kart kalmasın
+  closeExpandedCards();
 }
 
 function showMenu() {
@@ -127,10 +130,6 @@ function buildUI(data) {
     catContainer.appendChild(div);
   });
 
-  // ❌ Eski davranış: sayfa açılır açılmaz ürünleri gösteriyordu
-  // ✅ Artık ilk açılışta ürün göstermiyoruz, sadece kategoriler
-  // if (cats.length) showCategory(...)
-
   lazyLoadCategoryImages();
   smartPreloadImages(data);
 }
@@ -138,6 +137,9 @@ function buildUI(data) {
 function showCategory(category, element, data) {
   // ✅ Kategoriye basınca ürün ekranını aç
   showMenu();
+
+  // ✅ yeni kategoriye geçince açık kart kalmasın
+  closeExpandedCards();
 
   document
     .querySelectorAll(".category-card")
@@ -150,15 +152,14 @@ function showCategory(category, element, data) {
   (data[category]?.items || []).forEach((item) => {
     const card = document.createElement("div");
     card.className = "card";
-    card.addEventListener("click", () => {
-  // ✅ Diğer tüm açık kartları kapat
-  document.querySelectorAll(".card.expanded").forEach((c) => {
-    if (c !== card) c.classList.remove("expanded");
-  });
 
-  // ✅ Bu kartı aç/kapat
-  card.classList.toggle("expanded");
-});
+    // ✅ Kart genişletme: aynı anda sadece 1 kart açık
+    card.addEventListener("click", () => {
+      document.querySelectorAll(".card.expanded").forEach((c) => {
+        if (c !== card) c.classList.remove("expanded");
+      });
+      card.classList.toggle("expanded");
+    });
 
     card.innerHTML = `
       <img src="${item.img}?v=1" alt="${item.name}" loading="lazy" decoding="async">
