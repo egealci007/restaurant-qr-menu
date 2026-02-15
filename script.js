@@ -16,7 +16,7 @@ const homeView = document.getElementById("homeView");
 const menuView = document.getElementById("menuView");
 const siteLogo = document.getElementById("siteLogo");
 
-// ✅ Geri butonu (sadece bunu ekliyoruz)
+// ✅ Geri butonu
 const backBtn = document.getElementById("backBtn");
 
 // ✅ Menü verisini sakla (geri dönüşte tekrar fetch etmesin)
@@ -60,9 +60,6 @@ function showHome() {
 
   // ✅ Geri butonu ana ekranda gizli
   if (backBtn) backBtn.style.display = "none";
-
-  // ürün listesini temizlemek istersen aç:
-  // menuContainer.innerHTML = "";
 }
 
 function showMenu() {
@@ -126,10 +123,6 @@ function buildUI(data) {
     };
     catContainer.appendChild(div);
   });
-
-  // ❌ Eski davranış: sayfa açılır açılmaz ürünleri gösteriyordu
-  // ✅ Artık ilk açılışta ürün göstermiyoruz, sadece kategoriler
-  // if (cats.length) showCategory(...)
 
   lazyLoadCategoryImages();
   smartPreloadImages(data);
@@ -232,5 +225,7 @@ themeBtn.addEventListener("click", () => {
     : "🌙";
 });
 
-document.body.classList.add("dark");
-themeBtn.textContent = "☀️";
+// ✅ Başlangıç ikonu: body hangi moddaysa ona göre
+themeBtn.textContent = document.body.classList.contains("dark")
+  ? "☀️"
+  : "🌙";
