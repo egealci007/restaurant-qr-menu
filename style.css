@@ -7,7 +7,7 @@
   /* 🌙 Dark mod: daha parlak altın */
   --accent-dark: #FFC83D;
 
-  --bg-light: #ffffff; /* görseldeki gibi beyaz */
+  --bg-light: #f5f6fa;
   --text-light: #1a1a1a;
   --card-light: #fff;
 
@@ -16,7 +16,6 @@
   --card-dark: #0f172a;
 }
 
-/* ---------- GENEL ---------- */
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
@@ -31,81 +30,7 @@ body.dark {
   color: var(--text-dark);
 }
 
-/* ---------- HEADER (yeni sınıflı yapı) ---------- */
-.ml-header{
-  position: sticky;
-  top: 0;
-  z-index: 10;
-
-  height: 64px;
-  padding: 0 14px;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  backdrop-filter: blur(10px);
-  background: rgba(255,255,255,0.75);
-  transition: background 0.3s;
-  border-bottom: 1px solid rgba(0,0,0,0.05);
-}
-
-body.dark .ml-header{
-  background: rgba(7,11,20,0.70);
-  border-bottom: 1px solid rgba(255,255,255,0.06);
-}
-
-.ml-logo{
-  height: 42px;
-  width: auto;
-  display: block;
-  object-fit: contain;
-  filter: drop-shadow(0 0 12px rgba(255, 204, 0, 0.35));
-}
-
-.header-right{
-  display:flex;
-  align-items:center;
-  gap:10px;
-}
-
-.ml-theme{
-  background: none;
-  border: none;
-  font-size: 22px;
-  cursor: pointer;
-  color: inherit;
-}
-
-/* Geri butonu - class ile (index’te hidden kullanıyoruz) */
-.ml-back{
-  border: none;
-  background: rgba(0,0,0,0.06);
-  color: inherit;
-  font-size: 14px;
-  font-weight: 600;
-  padding: 8px 12px;
-  border-radius: 10px;
-  cursor: pointer;
-  line-height: 1;
-}
-
-body.dark .ml-back{
-  background: rgba(255,255,255,0.08);
-}
-
-/* hover sadece desktop'ta */
-@media (hover: hover){
-  .ml-back:hover{
-    background: rgba(0,0,0,0.10);
-  }
-  body.dark .ml-back:hover{
-    background: rgba(255,255,255,0.12);
-  }
-}
-
-/* Eski header kullananlar bozulmasın diye: */
-header{
+header {
   position: sticky;
   top: 0;
   z-index: 10;
@@ -117,7 +42,6 @@ header{
   align-items: center;
   transition: background 0.3s;
 }
-body.dark header { background: rgba(7,11,20,0.70); }
 
 #siteLogo {
   height: 70px;
@@ -126,102 +50,84 @@ body.dark header { background: rgba(7,11,20,0.70); }
   filter: drop-shadow(0 0 12px rgba(255, 204, 0, 0.45));
 }
 
-/* yardımcı */
-.hidden{ display:none !important; }
+body.dark header {
+  background: rgba(7,11,20,0.70);
+}
+
+h1 { font-size: 20px; font-weight: 600; }
+button#themeToggle { background: none; border: none; font-size: 22px; cursor: pointer; color: inherit; }
 
 /* ============================
-   ✅ KATEGORİLER (İSTEDİĞİN TASARIM)
-   2’li grid + yuvarlak kart + altta label bandı
+   KATEGORİLER (GRID TASARIM)
    ============================ */
 
 .categories {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 14px;
-  padding: 16px;
+  padding: 20px;
 
+  /* eski yatay scroll davranışını kapat */
   overflow: visible;
   scroll-snap-type: none;
   -webkit-overflow-scrolling: auto;
 }
 
-/* script.js mevcutta .category-card oluşturuyorsa onu aynı isimle stil veriyoruz */
-.category-card{
-  position: relative;
+.category-card {
   width: 100%;
-  aspect-ratio: 4 / 3;   /* ekrandaki gibi kareye yakın */
-  height: auto;          /* sabit height kaldırıldı */
-  border-radius: 18px;
+  height: 140px;
+
+  border-radius: 16px;
   overflow: hidden;
+  position: relative;
   cursor: pointer;
 
   background-size: cover;
   background-position: center;
 
-  box-shadow: 0 10px 22px rgba(0,0,0,0.18);
-  transform: translateZ(0);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-/* Eğer kategori kartı background-image yerine <img> ile basılacaksa (opsiyonel) */
-.category-card img{
-  width:100%;
-  height:100%;
-  object-fit:cover;
-  display:block;
-  filter: brightness(.92) contrast(1.05);
-}
-
-/* ✅ Alt label bandı: senin örnekteki gibi */
-.category-card::after{
-  content:"";
-  position:absolute;
-  left:0; right:0; bottom:0;
-  height:44px;
-  background: rgba(0,0,0,.68);
-  backdrop-filter: blur(6px);
-}
-
-/* Mevcut script: category-card içinde <span> yazıyı basıyor -> onu label yapıyoruz */
-.category-card span{
+/* modern koyu overlay */
+.category-card::after {
+  content: "";
   position: absolute;
-  left: 12px;
-  right: 12px;
-  bottom: 10px;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.72), rgba(0,0,0,0.12));
+}
+
+body.dark .category-card::after {
+  background: linear-gradient(to top, rgba(0,0,0,0.78), rgba(0,0,0,0.18));
+}
+
+.category-card span {
+  position: absolute;
+  bottom: 12px;
+  left: 14px;
+  font-weight: 600;
+  font-size: 15px;
   z-index: 2;
-
-  color: #fff;
-  font-weight: 700;
-  font-size: 12px;
-  letter-spacing: .7px;
-  text-transform: uppercase;
-
-  text-shadow: 0 6px 18px rgba(0,0,0,.55);
 }
 
-/* hover sadece desktop */
-@media (hover: hover){
-  .category-card:hover{
-    transform: translateY(-2px);
-    transition: transform .18s ease, box-shadow .18s ease;
-    box-shadow: 0 16px 34px rgba(0,0,0,.22);
-  }
+.category-card:hover {
+  transform: translateY(-3px);
 }
 
-/* active bırakıyorum (varsa) */
 .category-card.active {
   box-shadow:
-    0 12px 26px rgba(0,0,0,0.28),
-    0 0 18px rgba(255, 200, 0, 0.22);
+    0 10px 26px rgba(0,0,0,0.35),
+    0 0 22px rgba(255, 200, 0, 0.38);
+  transform: translateY(-3px);
 }
 
-/* küçük ekran */
+/* çok küçük ekranlarda kart yüksekliği biraz düşsün */
 @media (max-width: 380px){
-  .categories{ gap: 12px; padding: 14px; }
-  .category-card::after{ height: 42px; }
+  .category-card{ height: 125px; }
 }
 
 /* ============================
-   ÜRÜNLER (AYNEN KALDI)
+   ÜRÜNLER
    ============================ */
 
 .menu {
@@ -295,8 +201,10 @@ body.dark .price{
   color: #FFE082;
   background: rgba(255, 193, 7, 0.10);
   border: 1px solid rgba(255, 193, 7, 0.30);
-  border-radius: 8px;
 }
+
+body.dark #siteLogo { content:url("logo.png"); }
+body:not(.dark) #siteLogo { content:url("logo.png"); }
 
 /* 📱 Mobilde ürünleri yatay kart yap (desktop bozulmaz) */
 @media (max-width: 600px){
@@ -339,5 +247,31 @@ body.dark .price{
     font-size: 14px;
     padding: 4px 8px;
     margin-top: 6px;
+  }
+}
+/* ✅ Geri butonu (sadece stil) */
+#backBtn{
+  border: none;
+  background: rgba(0,0,0,0.06);
+  color: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  line-height: 1;
+}
+
+body.dark #backBtn{
+  background: rgba(255,255,255,0.08);
+}
+
+/* hover sadece desktop'ta */
+@media (hover: hover){
+  #backBtn:hover{
+    background: rgba(0,0,0,0.10);
+  }
+  body.dark #backBtn:hover{
+    background: rgba(255,255,255,0.12);
   }
 }
