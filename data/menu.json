@@ -268,15 +268,7 @@
     "Ürün Adı": "Nohut",
     "Fiyat": "",
     "Açıklama": "300 Gr",
-    "Görsel URL": "",
-    "CategoryImg": ""
-  },
-  {
-    "Kategori": "Bakliyatlar",
-    "Ürün Adı": "Nohut & Pirinç Pilavı",
-    "Fiyat": "",
-    "Açıklama": "500 Gr",
-    "Görsel URL": "",
+    "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/nohut.webp",
     "CategoryImg": ""
   },
   {
@@ -284,7 +276,15 @@
     "Ürün Adı": "Kuru Fasulye",
     "Fiyat": "",
     "Açıklama": "300 Gr",
-    "Görsel URL": "",
+    "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/kurufasulye.webp",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Bakliyatlar",
+    "Ürün Adı": "Nohut & Pirinç Pilavı",
+    "Fiyat": "",
+    "Açıklama": "500 Gr",
+    "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/nohutpilavbakla.webp",
     "CategoryImg": ""
   },
   {
@@ -292,7 +292,7 @@
     "Ürün Adı": "Kuru Fasulye & Pirinç Pilavı",
     "Fiyat": "",
     "Açıklama": "500 Gr",
-    "Görsel URL": "",
+    "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/kurupilavbakla.webp",
     "CategoryImg": ""
   },
   {
@@ -300,7 +300,7 @@
     "Ürün Adı": "Patlıcanlı Yeşil Mercimek (Mahluta)",
     "Fiyat": "",
     "Açıklama": "300 Gr",
-    "Görsel URL": "",
+    "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/mahluta.webp",
     "CategoryImg": ""
   },
   {
