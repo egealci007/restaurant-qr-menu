@@ -17,7 +17,7 @@
   },
   {
     "Kategori": "Çorbalar",
-    "Ürün Adı": "Zerdeçallı Sebze",
+    "Ürün Adı": "Zerdeçallı Sebze Çorbası",
     "Fiyat": 100,
     "Açıklama": "300 Gr",
     "Görsel URL": "",
@@ -1316,6 +1316,86 @@
     "Ürün Adı": "Vegan Sebze Sote & Pancar Köfte",
     "Fiyat": "",
     "Açıklama": "250 Gr",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Tavuk Dönerler",
+    "Ürün Adı": "Tavuk Döner Yarım Ekmek",
+    "Fiyat": 100,
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Tavuk Dönerler",
+    "Ürün Adı": "Tavuk Döner Üç Çeyrek",
+    "Fiyat": 130,
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Tavuk Dönerler",
+    "Ürün Adı": "Tavuk Döner Tam Ekmek",
+    "Fiyat": 200,
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Tavuk Dönerler",
+    "Ürün Adı": "Tavuk Döner Dürüm",
+    "Fiyat": 130,
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Tavuk Dönerler",
+    "Ürün Adı": "Tavuk Döner Tombik Ekmek",
+    "Fiyat": 130,
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Tavuk Dönerler",
+    "Ürün Adı": "Tavuk Döner Tırnak Pide",
+    "Fiyat": 150,
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Tavuk Dönerler",
+    "Ürün Adı": "Tavuk Döner Porsiyon",
+    "Fiyat": 200,
+    "Açıklama": "120 gram",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Tavuk Dönerler",
+    "Ürün Adı": "Tavuk Döner Pilav Üstü",
+    "Fiyat": "",
+    "Açıklama": "120 gram",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Tavuk Dönerler",
+    "Ürün Adı": "Tavuk Döner 1,5 Porsiyon",
+    "Fiyat": "",
+    "Açıklama": "180 Gram",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Tavuk Dönerler",
+    "Ürün Adı": "Tavuk Döner Pilav Üstü 1,5 Porsiyon",
+    "Fiyat": "",
+    "Açıklama": "180 Gram",
     "Görsel URL": "",
     "CategoryImg": ""
   }
