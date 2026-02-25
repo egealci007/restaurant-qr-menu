@@ -1378,7 +1378,7 @@
   {
     "Kategori": "Tavuk Dönerler",
     "Ürün Adı": "Tavuk Döner Pilav Üstü",
-    "Fiyat": "",
+    "Fiyat": 250,
     "Açıklama": "120 gram",
     "Görsel URL": "",
     "CategoryImg": ""
@@ -1386,7 +1386,7 @@
   {
     "Kategori": "Tavuk Dönerler",
     "Ürün Adı": "Tavuk Döner 1,5 Porsiyon",
-    "Fiyat": "",
+    "Fiyat": 250,
     "Açıklama": "180 Gram",
     "Görsel URL": "",
     "CategoryImg": ""
@@ -1394,8 +1394,160 @@
   {
     "Kategori": "Tavuk Dönerler",
     "Ürün Adı": "Tavuk Döner Pilav Üstü 1,5 Porsiyon",
-    "Fiyat": "",
+    "Fiyat": 300,
     "Açıklama": "180 Gram",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Izgaralar",
+    "Ürün Adı": "Yarım Ekmek Izgara Köfte",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Izgaralar",
+    "Ürün Adı": "Üç Çeyrek Izgara Köfte",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Izgaralar",
+    "Ürün Adı": "Tam Ekmek Izgara Köfte",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Izgaralar",
+    "Ürün Adı": "Porsiyon Izgara Köfte",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Izgaralar",
+    "Ürün Adı": "1,5 Porsiyon Izgara Köfte",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Izgaralar",
+    "Ürün Adı": "Izgara Tavuk Pirzola",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Izgaralar",
+    "Ürün Adı": "Izgara Tavuk Bonfile",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "Izgaralar",
+    "Ürün Adı": "Izgara Tavuk kanat",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "İçecekler",
+    "Ürün Adı": "Kola Turka Kutu kola",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "İçecekler",
+    "Ürün Adı": "Sarıyer Kutu Kola",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "İçecekler",
+    "Ürün Adı": "Sarıyer Portakal Kutu",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "İçecekler",
+    "Ürün Adı": "Kola Turka şişe kola",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "İçecekler",
+    "Ürün Adı": "Niğde Gazozu",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "İçecekler",
+    "Ürün Adı": "Çamlıca Portakal",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "İçecekler",
+    "Ürün Adı": "Uludağ Limonata",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "İçecekler",
+    "Ürün Adı": "Doğanay Acılı Şalgam",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "İçecekler",
+    "Ürün Adı": "Doğanay Acısız Şalgam",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "İçecekler",
+    "Ürün Adı": "Eker Kutu Ayran",
+    "Fiyat": "",
+    "Açıklama": "",
+    "Görsel URL": "",
+    "CategoryImg": ""
+  },
+  {
+    "Kategori": "İçecekler",
+    "Ürün Adı": "Gurme Açık Ayran",
+    "Fiyat": "",
+    "Açıklama": "",
     "Görsel URL": "",
     "CategoryImg": ""
   }
