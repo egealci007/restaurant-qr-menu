@@ -5,7 +5,7 @@
     "Fiyat": 500,
     "Açıklama": "300 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/mercimekcorbasi.webp",
-    "CategoryImg": ""
+    "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/corbalar.webp"
   },
   {
     "Kategori": "Çorbalar",
@@ -77,7 +77,7 @@
     "Fiyat": "",
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/sebzelibulgurpilavi.webp",
-    "CategoryImg": ""
+    "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/pilavlar.webp"
   },
   {
     "Kategori": "Pilavlar",
@@ -141,7 +141,7 @@
     "Fiyat": "",
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/eriste.webp",
-    "CategoryImg": ""
+    "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/makarnalar.webp"
   },
   {
     "Kategori": "Makarnalar",
