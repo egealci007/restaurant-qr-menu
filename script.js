@@ -11,16 +11,22 @@ const catContainer = document.getElementById("categories");
 const menuContainer = document.getElementById("menu");
 const themeBtn = document.getElementById("themeToggle");
 
-// ✅ Yeni view elementleri (index.html’de ekledik)
+// ✅ View elementleri
 const homeView = document.getElementById("homeView");
 const menuView = document.getElementById("menuView");
 const siteLogo = document.getElementById("siteLogo");
-
-// ✅ Geri butonu (sadece bunu ekliyoruz)
 const backBtn = document.getElementById("backBtn");
 
-// ✅ Menü verisini sakla (geri dönüşte tekrar fetch etmesin)
+// ✅ Welcome elementleri
+const welcomeView = document.getElementById("welcomeView");
+const btnShowMenu = document.getElementById("btnShowMenu");
+const welcomeRemember = document.getElementById("welcomeRemember");
+
+// ✅ Menü verisini sakla
 let APP_DATA = null;
+
+// ✅ Welcome storage key
+const WELCOME_KEY = "qrmenu_welcome_seen";
 
 // ============================
 //  🚀 SADECE JSON KULLANAN INIT
@@ -36,10 +42,12 @@ async function init() {
 
     APP_DATA = data;
 
-    // ✅ İlk ekran: sadece kategoriler
+    // ✅ İlk ekranı hazırla (kategoriler arka planda build olsun)
     showHome();
-
     buildUI(data);
+
+    // ✅ Her açılışta welcome göster
+    showWelcomeIfNeeded();
   } catch (err) {
     console.error("menu.json yüklenemedi:", err.message);
     alert("Menü yüklenemedi. Lütfen data/menu.json dosyasını kontrol edin.");
@@ -48,6 +56,47 @@ async function init() {
 
 // Başlat
 init();
+
+// ============================
+//  Welcome / Karşılama helpers
+// ============================
+
+function showWelcomeIfNeeded() {
+  if (!welcomeView) return;
+
+  // ✅ DEĞİŞTİ: Artık localStorage kontrolü yok -> her açılışta göster
+  showWelcome();
+}
+
+function showWelcome() {
+  if (!welcomeView) return;
+
+  // diğer view'ları gizle
+  if (homeView) homeView.style.display = "none";
+  if (menuView) menuView.style.display = "none";
+  if (backBtn) backBtn.style.display = "none";
+
+  welcomeView.style.display = "grid";
+}
+
+function hideWelcome() {
+  if (!welcomeView) return;
+
+  // ✅ DEĞİŞTİ: Artık "bir daha gösterme" kaydı yok (her açılışta gelsin)
+  // if (welcomeRemember && welcomeRemember.checked) {
+  //   localStorage.setItem(WELCOME_KEY, "1");
+  // } else {
+  //   localStorage.removeItem(WELCOME_KEY);
+  // }
+
+  welcomeView.style.display = "none";
+  showHome();
+}
+
+// Menüyü Gör butonu
+if (btnShowMenu) {
+  btnShowMenu.addEventListener("click", hideWelcome);
+}
 
 // ============================
 //  View yardımcıları
@@ -60,6 +109,7 @@ function closeExpandedCards() {
 function showHome() {
   if (homeView) homeView.style.display = "block";
   if (menuView) menuView.style.display = "none";
+  if (welcomeView) welcomeView.style.display = "none";
 
   // ✅ Geri butonu ana ekranda gizli
   if (backBtn) backBtn.style.display = "none";
@@ -71,6 +121,7 @@ function showHome() {
 function showMenu() {
   if (homeView) homeView.style.display = "none";
   if (menuView) menuView.style.display = "block";
+  if (welcomeView) welcomeView.style.display = "none";
 
   // ✅ Menü ekranında geri butonu görünsün
   if (backBtn) backBtn.style.display = "inline-flex";
