@@ -269,7 +269,7 @@
     "Fiyat": "",
     "Açıklama": "300 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/nohut.webp",
-    "CategoryImg": ""
+    "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/bakliyatlar.webp"
   },
   {
     "Kategori": "Bakliyatlar",
@@ -309,7 +309,7 @@
     "Fiyat": "",
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/tazefasulye.webp",
-    "CategoryImg": ""
+    "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/sebzeyemekleri.webp"
   },
   {
     "Kategori": "Sebze Yemekleri",
@@ -389,7 +389,7 @@
     "Fiyat": "",
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/patlicanmusakka.webp",
-    "CategoryImg": ""
+    "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/etliyemekler.webp"
   },
   {
     "Kategori": "Etli Yemekler",
@@ -597,7 +597,7 @@
     "Fiyat": "",
     "Açıklama": "250 Gr",
     "Görsel URL": "",
-    "CategoryImg": ""
+    "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/tavukyemekleri.webp"
   },
   {
     "Kategori": "Tavuklu Yemekler",
@@ -789,7 +789,7 @@
     "Fiyat": "",
     "Açıklama": "250 Gr",
     "Görsel URL": "",
-    "CategoryImg": ""
+    "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/yardimciyemekler.webp"
   },
   {
     "Kategori": "Yardımcı Yemekler",
@@ -821,7 +821,7 @@
     "Fiyat": "",
     "Açıklama": "200 Gr",
     "Görsel URL": "",
-    "CategoryImg": ""
+    "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/sinmutfagi.webp"
   },
   {
     "Kategori": "Çin Mutfağı",
@@ -853,7 +853,7 @@
     "Fiyat": "",
     "Açıklama": "200 Gr",
     "Görsel URL": "",
-    "CategoryImg": ""
+    "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/komposto.webp"
   },
   {
     "Kategori": "Kompostolar",
@@ -869,7 +869,7 @@
     "Fiyat": "",
     "Açıklama": "250 Gr",
     "Görsel URL": "",
-    "CategoryImg": ""
+    "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/tatlilar.webp"
   },
   {
     "Kategori": "Tatlılar",
@@ -909,7 +909,7 @@
     "Fiyat": "",
     "Açıklama": "200 Gr",
     "Görsel URL": "",
-    "CategoryImg": ""
+    "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/mezeler.webp"
   },
   {
     "Kategori": "Meze & Zeytinyağlılar",
@@ -1189,7 +1189,7 @@
     "Fiyat": "",
     "Açıklama": "300 Gr",
     "Görsel URL": "",
-    "CategoryImg": ""
+    "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/mantilar.webp"
   },
   {
     "Kategori": "Mantılar",
@@ -1229,7 +1229,7 @@
     "Fiyat": "",
     "Açıklama": "250 Gr",
     "Görsel URL": "",
-    "CategoryImg": ""
+    "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/kahvalti.webp"
   },
   {
     "Kategori": "Kahvaltı",
@@ -1261,7 +1261,7 @@
     "Fiyat": "",
     "Açıklama": "Porsiyon, 170-180 gr",
     "Görsel URL": "",
-    "CategoryImg": ""
+    "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/salataekstralari.webp"
   },
   {
     "Kategori": "Salata Ekstraları",
@@ -1293,7 +1293,7 @@
     "Fiyat": "",
     "Açıklama": "1 Adet",
     "Görsel URL": "",
-    "CategoryImg": ""
+    "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/veganmutfagi.webp"
   },
   {
     "Kategori": "Vegan Mutfağı",
@@ -1325,7 +1325,7 @@
     "Fiyat": 100,
     "Açıklama": "",
     "Görsel URL": "",
-    "CategoryImg": ""
+    "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/tavukdonerler.webp"
   },
   {
     "Kategori": "Tavuk Dönerler",
@@ -1405,7 +1405,7 @@
     "Fiyat": "",
     "Açıklama": "",
     "Görsel URL": "",
-    "CategoryImg": ""
+    "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/izgaralar.webp"
   },
   {
     "Kategori": "Izgaralar",
@@ -1469,7 +1469,7 @@
     "Fiyat": "",
     "Açıklama": "",
     "Görsel URL": "",
-    "CategoryImg": ""
+    "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/icecekler.webp"
   },
   {
     "Kategori": "İçecekler",
