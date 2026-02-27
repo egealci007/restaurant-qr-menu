@@ -700,7 +700,7 @@
     "Ürün Adı": "Çin Usulü Tavuk",
     "Fiyat": "",
     "Açıklama": "250 Gr",
-    "Görsel URL": "",
+    "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/sinusulutavuk.webp",
     "CategoryImg": ""
   },
   {
@@ -724,7 +724,7 @@
     "Ürün Adı": "Acılı Tavuk Sote",
     "Fiyat": "",
     "Açıklama": "250 Gr",
-    "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/kremalitavuksoslutavuk.webp",
+    "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/acilitavuksote.webp",
     "CategoryImg": ""
   },
   {
@@ -748,7 +748,7 @@
     "Ürün Adı": "Esnaf Usulü Tavuk Haşlama",
     "Fiyat": "",
     "Açıklama": "300 Gr",
-    "Görsel URL": "",
+    "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/esnaftavukhaslama.webp",
     "CategoryImg": ""
   },
   {
@@ -756,7 +756,7 @@
     "Ürün Adı": "Izgara Tavuk & Sebze",
     "Fiyat": "",
     "Açıklama": "250 Gr",
-    "Görsel URL": "",
+    "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/izgaratavuksebze.webp",
     "CategoryImg": ""
   },
   {
@@ -788,7 +788,7 @@
     "Ürün Adı": "Patates Püresi",
     "Fiyat": "",
     "Açıklama": "250 Gr",
-    "Görsel URL": "",
+    "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/patatespuresi.webp",
     "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/yardimciyemekler.webp"
   },
   {
@@ -796,7 +796,7 @@
     "Ürün Adı": "Baharatlı Elma Dilimli Patates",
     "Fiyat": "",
     "Açıklama": "250 Gr",
-    "Görsel URL": "",
+    "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/elmadilimpatates.webp",
     "CategoryImg": ""
   },
   {
@@ -804,7 +804,7 @@
     "Ürün Adı": "Fırın Sebze",
     "Fiyat": "",
     "Açıklama": "250 Gr",
-    "Görsel URL": "",
+    "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/firinsebze.webp",
     "CategoryImg": ""
   },
   {
@@ -812,7 +812,7 @@
     "Ürün Adı": "Fırın Mücver",
     "Fiyat": "",
     "Açıklama": "Dilim",
-    "Görsel URL": "",
+    "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/firinmucver.webp",
     "CategoryImg": ""
   },
   {
