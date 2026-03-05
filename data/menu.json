@@ -1402,7 +1402,7 @@
   {
     "Kategori": "Izgaralar",
     "Ürün Adı": "Yarım Ekmek Izgara Köfte",
-    "Fiyat": "",
+    "Fiyat": 180,
     "Açıklama": "",
     "Görsel URL": "",
     "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/izgaralar.webp"
@@ -1410,7 +1410,7 @@
   {
     "Kategori": "Izgaralar",
     "Ürün Adı": "Üç Çeyrek Izgara Köfte",
-    "Fiyat": "",
+    "Fiyat": 220,
     "Açıklama": "",
     "Görsel URL": "",
     "CategoryImg": ""
@@ -1418,7 +1418,7 @@
   {
     "Kategori": "Izgaralar",
     "Ürün Adı": "Tam Ekmek Izgara Köfte",
-    "Fiyat": "",
+    "Fiyat": 350,
     "Açıklama": "",
     "Görsel URL": "",
     "CategoryImg": ""
@@ -1426,7 +1426,7 @@
   {
     "Kategori": "Izgaralar",
     "Ürün Adı": "Porsiyon Izgara Köfte",
-    "Fiyat": "",
+    "Fiyat": 350,
     "Açıklama": "",
     "Görsel URL": "",
     "CategoryImg": ""
@@ -1434,7 +1434,7 @@
   {
     "Kategori": "Izgaralar",
     "Ürün Adı": "1,5 Porsiyon Izgara Köfte",
-    "Fiyat": "",
+    "Fiyat": 400,
     "Açıklama": "",
     "Görsel URL": "",
     "CategoryImg": ""
@@ -1442,7 +1442,7 @@
   {
     "Kategori": "Izgaralar",
     "Ürün Adı": "Izgara Tavuk Pirzola",
-    "Fiyat": "",
+    "Fiyat": 250,
     "Açıklama": "",
     "Görsel URL": "",
     "CategoryImg": ""
@@ -1450,7 +1450,7 @@
   {
     "Kategori": "Izgaralar",
     "Ürün Adı": "Izgara Tavuk Bonfile",
-    "Fiyat": "",
+    "Fiyat": 250,
     "Açıklama": "",
     "Görsel URL": "",
     "CategoryImg": ""
@@ -1458,7 +1458,7 @@
   {
     "Kategori": "Izgaralar",
     "Ürün Adı": "Izgara Tavuk kanat",
-    "Fiyat": "",
+    "Fiyat": 300,
     "Açıklama": "",
     "Görsel URL": "",
     "CategoryImg": ""
