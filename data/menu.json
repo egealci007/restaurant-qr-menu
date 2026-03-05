@@ -2,7 +2,7 @@
   {
     "Kategori": "Çorbalar",
     "Ürün Adı": "Süzme Mercimek Çorbası",
-    "Fiyat": 600,
+    "Fiyat": 80,
     "Açıklama": "300 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/mercimekcorbasi.webp",
     "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/corbalar.webp"
@@ -10,7 +10,7 @@
   {
     "Kategori": "Çorbalar",
     "Ürün Adı": "Ezogelin Çorbası",
-    "Fiyat": 250,
+    "Fiyat": 80,
     "Açıklama": "300 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/ezogelincorbasi.webp",
     "CategoryImg": ""
@@ -18,7 +18,7 @@
   {
     "Kategori": "Çorbalar",
     "Ürün Adı": "Zerdeçallı Sebze Çorbası",
-    "Fiyat": 100,
+    "Fiyat": 80,
     "Açıklama": "300 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/zerdecallicorba.webp",
     "CategoryImg": ""
@@ -26,7 +26,7 @@
   {
     "Kategori": "Çorbalar",
     "Ürün Adı": "Domates Çorbası",
-    "Fiyat": 500,
+    "Fiyat": 80,
     "Açıklama": "300 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/domatescorbasi.webp",
     "CategoryImg": ""
@@ -34,7 +34,7 @@
   {
     "Kategori": "Çorbalar",
     "Ürün Adı": "Yayla Çorbası",
-    "Fiyat": 500,
+    "Fiyat": 80,
     "Açıklama": "300 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/yaylacorbasi.webp",
     "CategoryImg": ""
@@ -42,7 +42,7 @@
   {
     "Kategori": "Çorbalar",
     "Ürün Adı": "Brokoli Çorbası",
-    "Fiyat": "",
+    "Fiyat": 80,
     "Açıklama": "300 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/brokolicorbasi.webp",
     "CategoryImg": ""
@@ -50,7 +50,7 @@
   {
     "Kategori": "Çorbalar",
     "Ürün Adı": "Şehriyeli Tavuk Suyu Çorbası",
-    "Fiyat": "",
+    "Fiyat": 100,
     "Açıklama": "300 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/sehriyelitavukcorbasi.webp",
     "CategoryImg": ""
@@ -58,7 +58,7 @@
   {
     "Kategori": "Çorbalar",
     "Ürün Adı": "Kıymalı Tarhana Çorbası",
-    "Fiyat": "",
+    "Fiyat": 100,
     "Açıklama": "300 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/kiymalitrhanacorbasi.webp",
     "CategoryImg": ""
@@ -66,7 +66,7 @@
   {
     "Kategori": "Çorbalar",
     "Ürün Adı": "Köz Patlıcan Çorbası",
-    "Fiyat": "",
+    "Fiyat": 100,
     "Açıklama": "300 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/patlicancorbasi.webp",
     "CategoryImg": ""
@@ -74,7 +74,7 @@
   {
     "Kategori": "Pilavlar",
     "Ürün Adı": "Sebzeli Bulgur Pilavı",
-    "Fiyat": "",
+    "Fiyat": 90,
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/sebzelibulgurpilavi.webp",
     "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/pilavlar.webp"
@@ -82,7 +82,7 @@
   {
     "Kategori": "Pilavlar",
     "Ürün Adı": "Pirinç Pilavı",
-    "Fiyat": "",
+    "Fiyat": 90,
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/pirincpilav.webp",
     "CategoryImg": ""
@@ -90,7 +90,7 @@
   {
     "Kategori": "Pilavlar",
     "Ürün Adı": "Şehriyeli Pirinç Pilavı",
-    "Fiyat": "",
+    "Fiyat": 90,
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/sehriyelipilav.webp",
     "CategoryImg": ""
@@ -98,7 +98,7 @@
   {
     "Kategori": "Pilavlar",
     "Ürün Adı": "Meyhane Usulü Bulgur Pilavı",
-    "Fiyat": "",
+    "Fiyat": 90,
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/myhanepilavi.webp",
     "CategoryImg": ""
@@ -106,7 +106,7 @@
   {
     "Kategori": "Pilavlar",
     "Ürün Adı": "Nuhutlu Pilav",
-    "Fiyat": "",
+    "Fiyat": 100,
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/nohutpilav.webp",
     "CategoryImg": ""
@@ -114,7 +114,7 @@
   {
     "Kategori": "Pilavlar",
     "Ürün Adı": "Tavuklu Pilav",
-    "Fiyat": "",
+    "Fiyat": 120,
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/tavuklupilav.webp",
     "CategoryImg": ""
@@ -122,7 +122,7 @@
   {
     "Kategori": "Pilavlar",
     "Ürün Adı": "Nohutlu Tavuklu Pilav",
-    "Fiyat": "",
+    "Fiyat": 120,
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/tvknhtpilav.webp",
     "CategoryImg": ""
@@ -130,7 +130,7 @@
   {
     "Kategori": "Pilavlar",
     "Ürün Adı": "Özbek Pilavı",
-    "Fiyat": "",
+    "Fiyat": 120,
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/ozbekpilav.webp",
     "CategoryImg": ""
@@ -138,7 +138,7 @@
   {
     "Kategori": "Makarnalar",
     "Ürün Adı": "Erişte",
-    "Fiyat": "",
+    "Fiyat": 100,
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/eriste.webp",
     "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/makarnalarr.webp"
@@ -146,7 +146,7 @@
   {
     "Kategori": "Makarnalar",
     "Ürün Adı": "Sade Makarna",
-    "Fiyat": "",
+    "Fiyat": 100,
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/sademakarna.webp",
     "CategoryImg": ""
@@ -154,7 +154,7 @@
   {
     "Kategori": "Makarnalar",
     "Ürün Adı": "Salçalı Spagetti",
-    "Fiyat": "",
+    "Fiyat": 100,
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/salcalispagetti.webp",
     "CategoryImg": ""
@@ -162,7 +162,7 @@
   {
     "Kategori": "Makarnalar",
     "Ürün Adı": "Domates Soslu  Penne Makarna",
-    "Fiyat": "",
+    "Fiyat": 100,
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/domatessoslupenne.webp",
     "CategoryImg": ""
@@ -170,7 +170,7 @@
   {
     "Kategori": "Makarnalar",
     "Ürün Adı": "Fırın Makarna",
-    "Fiyat": "",
+    "Fiyat": 100,
     "Açıklama": "Porsiyon",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/firinmakarna.webp",
     "CategoryImg": ""
@@ -178,7 +178,7 @@
   {
     "Kategori": "Makarnalar",
     "Ürün Adı": "Bolonez Soslu Spagetti",
-    "Fiyat": "",
+    "Fiyat": 125,
     "Açıklama": "350 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/bolonezsosluspagetti.webp",
     "CategoryImg": ""
@@ -186,7 +186,7 @@
   {
     "Kategori": "Makarnalar",
     "Ürün Adı": "Spagetti Sebzeli",
-    "Fiyat": "",
+    "Fiyat": 125,
     "Açıklama": "350 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/sebzelispagetti.webp",
     "CategoryImg": ""
@@ -194,7 +194,7 @@
   {
     "Kategori": "Makarnalar",
     "Ürün Adı": "Penne Napoliten",
-    "Fiyat": "",
+    "Fiyat": 135,
     "Açıklama": "350 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/pennenapoliten.webp",
     "CategoryImg": ""
@@ -202,7 +202,7 @@
   {
     "Kategori": "Makarnalar",
     "Ürün Adı": "Penne Arabiata",
-    "Fiyat": "",
+    "Fiyat": 150,
     "Açıklama": "350 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/pennearabiata.webp",
     "CategoryImg": ""
@@ -210,7 +210,7 @@
   {
     "Kategori": "Makarnalar",
     "Ürün Adı": "Lazanya",
-    "Fiyat": "",
+    "Fiyat": 200,
     "Açıklama": "Porsiyon",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/lazanya.webp",
     "CategoryImg": ""
@@ -218,7 +218,7 @@
   {
     "Kategori": "Makarnalar",
     "Ürün Adı": "Tagliatelle Fettucini Napoliten",
-    "Fiyat": "",
+    "Fiyat": 200,
     "Açıklama": "350 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/fettucininapoliten.webp",
     "CategoryImg": ""
@@ -226,7 +226,7 @@
   {
     "Kategori": "Makarnalar",
     "Ürün Adı": "Tagliatelle Fettucini Pesto",
-    "Fiyat": "",
+    "Fiyat": 220,
     "Açıklama": "350 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/fettucinipesto.webp",
     "CategoryImg": ""
@@ -234,7 +234,7 @@
   {
     "Kategori": "Makarnalar",
     "Ürün Adı": "Tagliatelle Fettucini Alfredo",
-    "Fiyat": "",
+    "Fiyat": 220,
     "Açıklama": "350 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/fettucinialfredo.webp",
     "CategoryImg": ""
@@ -242,7 +242,7 @@
   {
     "Kategori": "Makarnalar",
     "Ürün Adı": "Tagliatelle Fettucini Di Manzo Tavuklu",
-    "Fiyat": "",
+    "Fiyat": 230,
     "Açıklama": "350 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/dimanzotavuklu.webp",
     "CategoryImg": ""
@@ -250,7 +250,7 @@
   {
     "Kategori": "Makarnalar",
     "Ürün Adı": "Tagliatelle Fettucini Mexico",
-    "Fiyat": "",
+    "Fiyat": 200,
     "Açıklama": "350 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/fettucinimexico.webp",
     "CategoryImg": ""
@@ -258,7 +258,7 @@
   {
     "Kategori": "Makarnalar",
     "Ürün Adı": "Penne Kremalı Tavuklu",
-    "Fiyat": "",
+    "Fiyat": 200,
     "Açıklama": "350 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/kremalitavuklupenne.webp",
     "CategoryImg": ""
@@ -266,7 +266,7 @@
   {
     "Kategori": "Bakliyatlar",
     "Ürün Adı": "Nohut",
-    "Fiyat": "",
+    "Fiyat": 100,
     "Açıklama": "300 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/nohut.webp",
     "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/bakliyatlar.webp"
@@ -274,7 +274,7 @@
   {
     "Kategori": "Bakliyatlar",
     "Ürün Adı": "Kuru Fasulye",
-    "Fiyat": "",
+    "Fiyat": 100,
     "Açıklama": "300 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/kurufasulye.webp",
     "CategoryImg": ""
@@ -282,7 +282,7 @@
   {
     "Kategori": "Bakliyatlar",
     "Ürün Adı": "Nohut & Pirinç Pilavı",
-    "Fiyat": "",
+    "Fiyat": 150,
     "Açıklama": "500 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/nohutpilavbakla.webp",
     "CategoryImg": ""
@@ -290,7 +290,7 @@
   {
     "Kategori": "Bakliyatlar",
     "Ürün Adı": "Kuru Fasulye & Pirinç Pilavı",
-    "Fiyat": "",
+    "Fiyat": 150,
     "Açıklama": "500 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/kurupilavbakla.webp",
     "CategoryImg": ""
@@ -298,7 +298,7 @@
   {
     "Kategori": "Bakliyatlar",
     "Ürün Adı": "Patlıcanlı Yeşil Mercimek (Mahluta)",
-    "Fiyat": "",
+    "Fiyat": 100,
     "Açıklama": "300 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/mahluta.webp",
     "CategoryImg": ""
@@ -306,7 +306,7 @@
   {
     "Kategori": "Sebze Yemekleri",
     "Ürün Adı": "Taze Fasulye",
-    "Fiyat": "",
+    "Fiyat": 100,
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/tazefasulye.webp",
     "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/sebzeyemekleri.webp"
@@ -314,7 +314,7 @@
   {
     "Kategori": "Sebze Yemekleri",
     "Ürün Adı": "Taze Fasulye & Bulgur Pilavı",
-    "Fiyat": "",
+    "Fiyat": 130,
     "Açıklama": "500 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/tazefasulyevebulgurpilavi.webp",
     "CategoryImg": ""
@@ -322,7 +322,7 @@
   {
     "Kategori": "Sebze Yemekleri",
     "Ürün Adı": "Sebze Türlü",
-    "Fiyat": "",
+    "Fiyat": 100,
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/turlu.webp",
     "CategoryImg": ""
@@ -330,7 +330,7 @@
   {
     "Kategori": "Sebze Yemekleri",
     "Ürün Adı": "Dereotlu Kabak ",
-    "Fiyat": "",
+    "Fiyat": 100,
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/dereotlukabak.webp",
     "CategoryImg": ""
@@ -338,7 +338,7 @@
   {
     "Kategori": "Sebze Yemekleri",
     "Ürün Adı": "Bezelye",
-    "Fiyat": "",
+    "Fiyat": 120,
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/bezelye.webp",
     "CategoryImg": ""
@@ -346,7 +346,7 @@
   {
     "Kategori": "Sebze Yemekleri",
     "Ürün Adı": "Mantarlı Ispanak",
-    "Fiyat": "",
+    "Fiyat": 120,
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/mantarliispanak.webp",
     "CategoryImg": ""
@@ -354,7 +354,7 @@
   {
     "Kategori": "Sebze Yemekleri",
     "Ürün Adı": "Semizotu",
-    "Fiyat": "",
+    "Fiyat": 120,
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/semizotu.webp",
     "CategoryImg": ""
@@ -362,7 +362,7 @@
   {
     "Kategori": "Sebze Yemekleri",
     "Ürün Adı": "Portakallı Kereviz",
-    "Fiyat": "",
+    "Fiyat": 120,
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/portakallikereviz.webp",
     "CategoryImg": ""
@@ -370,7 +370,7 @@
   {
     "Kategori": "Sebze Yemekleri",
     "Ürün Adı": "Bamya",
-    "Fiyat": "",
+    "Fiyat": 120,
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/bamya.webp",
     "CategoryImg": ""
@@ -378,7 +378,7 @@
   {
     "Kategori": "Sebze Yemekleri",
     "Ürün Adı": "Patatesli Ispanaklı Graten",
-    "Fiyat": "",
+    "Fiyat": 120,
     "Açıklama": "Porsiyon",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/graten.webp",
     "CategoryImg": ""
@@ -386,7 +386,7 @@
   {
     "Kategori": "Etli Yemekler",
     "Ürün Adı": "Patlıcan Musakka",
-    "Fiyat": "",
+    "Fiyat": 150,
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/patlicanmusakka.webp",
     "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/etliyemekler.webp"
@@ -394,7 +394,7 @@
   {
     "Kategori": "Etli Yemekler",
     "Ürün Adı": "Patlıcan Musakka & Pirinç Pilavı",
-    "Fiyat": "",
+    "Fiyat": 250,
     "Açıklama": "500 Gr",
     "Görsel URL": "",
     "CategoryImg": ""
@@ -402,7 +402,7 @@
   {
     "Kategori": "Etli Yemekler",
     "Ürün Adı": "Ekşili Köfte",
-    "Fiyat": "",
+    "Fiyat": 200,
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/eksilikofte.webp",
     "CategoryImg": ""
@@ -410,7 +410,7 @@
   {
     "Kategori": "Etli Yemekler",
     "Ürün Adı": "Ekşili Köfte & Şehriyeli Bulgur Pilavı ",
-    "Fiyat": "",
+    "Fiyat": 250,
     "Açıklama": "500 Gr",
     "Görsel URL": "",
     "CategoryImg": ""
@@ -418,7 +418,7 @@
   {
     "Kategori": "Etli Yemekler",
     "Ürün Adı": "Karnıyarık",
-    "Fiyat": "",
+    "Fiyat": 150,
     "Açıklama": "1 Adet",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/karniyarik.webp",
     "CategoryImg": ""
@@ -426,7 +426,7 @@
   {
     "Kategori": "Etli Yemekler",
     "Ürün Adı": "Karnıyarık & Pirinç Pilavı",
-    "Fiyat": "",
+    "Fiyat": 250,
     "Açıklama": "500 Gr",
     "Görsel URL": "",
     "CategoryImg": ""
@@ -434,7 +434,7 @@
   {
     "Kategori": "Etli Yemekler",
     "Ürün Adı": "Püreli Rosto Köfte",
-    "Fiyat": "",
+    "Fiyat": 180,
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/rostokoftepureli.webp",
     "CategoryImg": ""
@@ -442,7 +442,7 @@
   {
     "Kategori": "Etli Yemekler",
     "Ürün Adı": "Püreli Rosto & Makarna",
-    "Fiyat": "",
+    "Fiyat": 250,
     "Açıklama": "450 Gr",
     "Görsel URL": "",
     "CategoryImg": ""
@@ -450,7 +450,7 @@
   {
     "Kategori": "Etli Yemekler",
     "Ürün Adı": "Et Sote",
-    "Fiyat": "",
+    "Fiyat": 330,
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/etsote.webp",
     "CategoryImg": ""
@@ -458,7 +458,7 @@
   {
     "Kategori": "Etli Yemekler",
     "Ürün Adı": "Et Sote & Pirinç Pilavı",
-    "Fiyat": "",
+    "Fiyat": 350,
     "Açıklama": "500 Gr",
     "Görsel URL": "",
     "CategoryImg": ""
@@ -466,7 +466,7 @@
   {
     "Kategori": "Etli Yemekler",
     "Ürün Adı": "Orman Kebabı",
-    "Fiyat": "",
+    "Fiyat": 200,
     "Açıklama": "250 Gr",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/ormankebabi.webp",
     "CategoryImg": ""
@@ -474,7 +474,7 @@
   {
     "Kategori": "Etli Yemekler",
     "Ürün Adı": "Orman Kebabı & Pirinç Pilavı",
-    "Fiyat": "",
+    "Fiyat": 250,
     "Açıklama": "450 Gr",
     "Görsel URL": "",
     "CategoryImg": ""
@@ -482,7 +482,7 @@
   {
     "Kategori": "Etli Yemekler",
     "Ürün Adı": "Etli Biber Dolma",
-    "Fiyat": "",
+    "Fiyat": 140,
     "Açıklama": "2 Adet",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/etlibiberdolma.webp",
     "CategoryImg": ""
@@ -490,7 +490,7 @@
   {
     "Kategori": "Etli Yemekler",
     "Ürün Adı": "Etli Biber Dolma & Makarna",
-    "Fiyat": "",
+    "Fiyat": 200,
     "Açıklama": "450 Gr",
     "Görsel URL": "",
     "CategoryImg": ""
@@ -498,7 +498,7 @@
   {
     "Kategori": "Etli Yemekler",
     "Ürün Adı": "Püreli Kadınbudu Köfte",
-    "Fiyat": "",
+    "Fiyat": 200,
     "Açıklama": "2 Adet",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/purelikadinbudukofte.webp",
     "CategoryImg": ""
@@ -1466,7 +1466,7 @@
   {
     "Kategori": "İçecekler",
     "Ürün Adı": "Kola Turka Kutu kola",
-    "Fiyat": "",
+    "Fiyat": 50,
     "Açıklama": "",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/colaturka.webp",
     "CategoryImg": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/icecekler.webp"
@@ -1474,7 +1474,7 @@
   {
     "Kategori": "İçecekler",
     "Ürün Adı": "Sarıyer Kutu Kola",
-    "Fiyat": "",
+    "Fiyat": 50,
     "Açıklama": "",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/sariyerkutukola.webp",
     "CategoryImg": ""
@@ -1482,7 +1482,7 @@
   {
     "Kategori": "İçecekler",
     "Ürün Adı": "Sarıyer Portakal Kutu",
-    "Fiyat": "",
+    "Fiyat": 50,
     "Açıklama": "",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/sariyerportakalli.webp",
     "CategoryImg": ""
@@ -1490,7 +1490,7 @@
   {
     "Kategori": "İçecekler",
     "Ürün Adı": "Kola Turka şişe kola",
-    "Fiyat": "",
+    "Fiyat": 40,
     "Açıklama": "",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/colaturkasise.webp",
     "CategoryImg": ""
@@ -1498,7 +1498,7 @@
   {
     "Kategori": "İçecekler",
     "Ürün Adı": "Niğde Gazozu",
-    "Fiyat": "",
+    "Fiyat": 40,
     "Açıklama": "",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/nigdegazoz.webp",
     "CategoryImg": ""
@@ -1506,7 +1506,7 @@
   {
     "Kategori": "İçecekler",
     "Ürün Adı": "Çamlıca Portakal",
-    "Fiyat": "",
+    "Fiyat": 40,
     "Açıklama": "",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/camlicaportakal.webp",
     "CategoryImg": ""
@@ -1514,7 +1514,7 @@
   {
     "Kategori": "İçecekler",
     "Ürün Adı": "Uludağ Limonata",
-    "Fiyat": "",
+    "Fiyat": 40,
     "Açıklama": "",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/limonata.webp",
     "CategoryImg": ""
@@ -1522,7 +1522,7 @@
   {
     "Kategori": "İçecekler",
     "Ürün Adı": "Doğanay Acılı Şalgam",
-    "Fiyat": "",
+    "Fiyat": 50,
     "Açıklama": "",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/salgam.webp",
     "CategoryImg": ""
@@ -1530,7 +1530,7 @@
   {
     "Kategori": "İçecekler",
     "Ürün Adı": "Doğanay Acısız Şalgam",
-    "Fiyat": "",
+    "Fiyat": 50,
     "Açıklama": "",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/salgam.webp",
     "CategoryImg": ""
@@ -1538,7 +1538,7 @@
   {
     "Kategori": "İçecekler",
     "Ürün Adı": "Eker Kutu Ayran",
-    "Fiyat": "",
+    "Fiyat": 40,
     "Açıklama": "",
     "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/ekerayran.webp",
     "CategoryImg": ""
@@ -1546,7 +1546,7 @@
   {
     "Kategori": "İçecekler",
     "Ürün Adı": "Gurme Açık Ayran",
-    "Fiyat": "",
+    "Fiyat": 50,
     "Açıklama": "",
     "Görsel URL": "",
     "CategoryImg": ""
