@@ -1332,7 +1332,7 @@
     "Ürün Adı": "Tavuk Döner Üç Çeyrek",
     "Fiyat": 130,
     "Açıklama": "",
-    "Görsel URL": "",
+    "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/tavukucceyrek.webp",
     "CategoryImg": ""
   },
   {
@@ -1340,7 +1340,7 @@
     "Ürün Adı": "Tavuk Döner Tam Ekmek",
     "Fiyat": 200,
     "Açıklama": "",
-    "Görsel URL": "",
+    "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/tavuktamekmek.webp",
     "CategoryImg": ""
   },
   {
@@ -1348,7 +1348,7 @@
     "Ürün Adı": "Tavuk Döner Dürüm",
     "Fiyat": 130,
     "Açıklama": "",
-    "Görsel URL": "",
+    "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/tavukdurum.webp",
     "CategoryImg": ""
   },
   {
@@ -1372,7 +1372,7 @@
     "Ürün Adı": "Tavuk Döner Porsiyon",
     "Fiyat": 200,
     "Açıklama": "120 gram",
-    "Görsel URL": "",
+    "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/porsiyontavuk.webp",
     "CategoryImg": ""
   },
   {
@@ -1380,7 +1380,7 @@
     "Ürün Adı": "Tavuk Döner Pilav Üstü",
     "Fiyat": 250,
     "Açıklama": "120 gram",
-    "Görsel URL": "",
+    "Görsel URL": "https://cdn.jsdelivr.net/gh/egealci007/restaurant-qr-menu@main/images/products/pilavustutavuk.webp",
     "CategoryImg": ""
   },
   {
